@@ -1,0 +1,17 @@
+{
+  "name": "lms-delinquent-management-automation",
+  "version": "0.1.0",
+  "description": "LMS(토크스테이션) 일일정산달력에서 미납자 현황을 자동으로 집계해 보고서를 만들어주는 사내 자동화 도구",
+  "main": "electron/main/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "electron-store": "^8.2.0"
+  },
+  "devDependencies": {
+    "electron": "^44.0.0"
+  }
+}
